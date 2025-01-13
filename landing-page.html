@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="landing-page.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="conainer">
+            <img class="logo" src="/Challenge 003/img/logo.png" alt="page logo">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                                viewBox="0 -960 960 960" width="30px" fill="#434343">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link " href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link apptment-btn" href="#">Appontiment</a></li>
+            </nav>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item hideOnMobile"><a class="nav-link orange" href="#">Home</a></li>
+                    <li class="nav-item hideOnMobile"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item hideOnMobile"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item hideOnMobile"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item hideOnMobile"><a class="nav-link apptment-btn" href="#">Appontiment</a></li>
+                    <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000">
+                                <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                            </svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main conainer">
+        <!--  Hero section -->
+        <section class="hero_section">
+            <div class="hero_text">
+                <h1 class="title">Eye Care Specialists
+                    You Can Trust</h1>
+                <p>
+                    Our Optical Expectations Providing Excellent
+                    Service and We Are Committed To Keep You Eye Healthy & Safe
+                </p>
+                <a class="apptment-btn" href="#">Make Appontiment</a>
+            </div>
+            <div class="hero_image">
+                <img src="/Challenge 003/img/Dr.Xasan.webp" alt="hero image">
+                <img src="/Challenge 003/img/Container.png" alt="date-container">
+            </div>
+        </section>
+        <!--  about section -->
+        <section class="about_section">
+            <div class="abou-img">
+                <img src="/Challenge 003/img/Image.png" alt="about-img">
+            </div>
+            <div class="about_text">
+                <h2>About Us</h2>
+                <p>
+                    There are many variations of passages of
+                    Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by
+                    injected humoandomisedords.There are
+                    many variations of passages of Lorem
+                    Ipsum available but the majority have
+                    suffered alteration. There are many
+                    variations of passages of Lorem Ipsum
+                    available, but the majority have suffered
+                    alteration iawtn some form, by injected
+                    humour, or randomise dearty words.There
+                    are many variations of passages.
+                </p>
+            </div>
+        </section>
+        <!--  our expert -->
+        <section class=" our-expert_section">
+            <div class="our-expert-text">
+                <h2>
+                    Meet Our Expert
+                </h2>
+                <p>
+                    Get your eyes checked by experienced eye care professionals. Trust yourself
+                    to 500+ eyewear styles at our store.
+                </p>
+            </div>
+            <div class="our-team-info">
+                <div class="team-member">
+                    <img class="team-img" src="/Challenge 003/img/Dr.Axmed.png" alt="team-member">
+                    <h3>Dr. Axmed Maxamed</h3>
+                    <p>Cheif Ophthalmologist</p>
+                </div>
+                <div class="team-member">
+                    <img class="team-img" src="/Challenge 003/img/Dr.Xasan.webp" alt="team-member">
+                    <h3>Dr. Xasan Xuseen</h3>
+                    <p>Vision Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img class="team-img" src="/Challenge 003/img/DR.maryama.png" alt="team-member">
+                    <h3>Dr. Maryama Cali</h3>
+                    <p>Pediatric Eye Care</p>
+                </div>
+                <div class="team-member">
+                    <img class="team-img" src="/Challenge 003/img/Dr.Axmed.png" alt="team-member">
+                    <h3>Dr. Cali Faarax</h3>
+                    <p>Surgical Specialist</p>
+                </div>
+            </div>
+        </section>
+        <!--  our service section -->
+        <section class="Why_Choose_Us_section">
+            <div class="why-choose-us-text">
+                <img src="/Challenge 003/img/img.png" alt="img">
+                <h2>Why Choose Us</h2>
+                <p>We provide comprehensive eye care services with the latest
+                    technology and experienced professionals.</p>
+            </div>
+            <div class="our_service">
+                <div class="service">
+                    <img class="service_img"
+                        src="/Challenge 003/icons/date_range_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg" alt="img">
+                    <h3>6- Days a Week</h3>
+                    <p>Easy to book an appointment anytime</p>
+                </div>
+                <div class="service">
+                    <img class="service_img"
+                        src="/Challenge 003/icons/schedule_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg" alt="img">
+                    <h3>Immediate Servise </h3>
+                    <p>No Long Waiting Time </p>
+                </div>
+                <div class="service">
+                    <img class="service_img"
+                        src="/Challenge 003/icons/encrypted_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg" alt="img">
+                    <h3>Expert & Professional</h3>
+                    <p> Our doctors are highly trained and experienced</p>
+                </div>
+                <div class="service">
+                    <img class="service_img"
+                        src="/Challenge 003/icons/star_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg" alt="img">
+                    <h3>Best Warranty</h3>
+                    <p>Satisfaction guaranteed</p>
+                </div>
+            </div>
+        </section>
+        <section class="latest_news">
+            <h2>Latest News</h2>
+            <div class="news">
+            <div class="latest-news-text">
+                <img src="/Challenge 003/img/Image (2).png" alt="img">
+                <h4 class="color">Oct 15, 2023</h4>
+                <h3>New Treatment
+                    Options for
+                    Glaucoma</h3>
+                <a href="#" class="color">Read More... <sub> ➡ </sub></a>
+            </div>
+            <div class="latest-news-text">
+                <img src="/Challenge 003/img/image 3.png" alt="img">
+                <h4 class="color">Oct 12, 2018</h4>
+                <h3>Medical Records are Safe Your now a days.</h3>
+                <a href="#" class="color">Read More... <sub> ➡ </sub></a>
+            </div>
+            <div class="latest-news-text">
+                <img src="/Challenge 003/img/Image (3).png" alt="img">
+                <h4 class="color">Oct 15, 2021</h4>
+                <h3>Children's Eye Health
+                    Month</h3>
+                <a href="#" class="color">Read More... <sub> ➡ </sub></a>
+            </div>
+            <div class="latest-news-text">
+                <img src="/Challenge 003/img/Image (2).png" alt="img">
+                <h4 class="color">Oct 15, 2022</4>
+                    <h3>Advanced
+                        Technology in Eye
+                        Care</h3>
+                    <a href="#" class="color">Read More... <sub> ➡ </sub></a>
+            </div>
+</div>
+        </section>
+        <section class="call">
+            <div class="call-text">
+                <h1>Ready to Schedule Your Eye Exam?</h1>
+                <p>Call us today to schedule your appointment
+                Take the first step towards better vision. Our team of experts is ready to help you.</p>
+                <a class="apptment-btn" href="#"> <img src="/Challenge 003/icons/call_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg"> Call Now</a></li>
+                <p class="color">Learn More..</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-text Container">
+        <div class="footer_logo">
+            <img class="logo" src="/Challenge 003/img/Logo.png" alt="Logo">
+            <p>Providing excellence in
+                eye care services for over 25 Years</p>
+        </div>
+    <div class="Quick_Links">
+        <h2> Quick Links</h2>
+        <ul>
+            <li>About Us</li>
+            <li>Our Services</li>
+            <li>Book Appointment</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="Contact_info">
+        <h2> Contact Info</h2>
+        <p><img src="/Challenge 003/icons/location_on_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            Address Dagmada Hodon, Mogadishu</p>
+            <p>
+                <img src="/Challenge 003/icons/call_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg"> 
+                <a href="tel:+252 613243223">Call Us: +252 61 3243223</a>
+            </p>
+            <p>
+                <img style="vertical-align: middle;" src="/Challenge 003/icons/mail_24dp_     F39125_FILL0_wght400_GRAD0_opsz24.svg">
+                <a href="mailto:info@mail.com">info@mail.com</a>
+            </p>
+    </div>
+    <div class="follow-us">
+        <h2>Follow Us</h2>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fab fa-facebook"></i>
+        <i class="fa fab fa-instagram"></i>
+        <i class="fa fab fa-linkedin"></i>
+    </div>
+    </div>
+    <p class="copy"> &copy; Copyright 2025 Vision Care Hospital. Designed and Developed by Sara</p>
+    </footer>
+
+    <!-- navigation -->
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
