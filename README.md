@@ -6,9 +6,9 @@ Eye Care Landing is a comprehensive eye care center that offers a wide range of 
 The challenge is to create a website that effectively communicates the services offered by Eye Care Landing and provides a seamless user experience for patients.
 ### Screenshot
 
-![](/Challenge%20003/Design/mobile.png)
-![](/Challenge%20003/Design/labptop.png)
-![](/Challenge%20003/Design/ipad.png)
+![](/Design/mobile.png)
+![](/Design/labptop.png)
+![](/Design/ipad.png)
 
 
 ## My process
